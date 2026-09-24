@@ -34,7 +34,7 @@ export default async function PayrollPage() {
       <div>
         <h1 className="text-2xl font-semibold tracking-tight">Payroll</h1>
         <p className="mt-1 text-muted-foreground">
-          See each month&apos;s payslip and how your salary adds up.
+          See each month&apos;s payslip and how your pay adds up.
         </p>
       </div>
 
