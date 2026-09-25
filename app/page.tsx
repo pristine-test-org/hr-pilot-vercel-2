@@ -88,7 +88,7 @@ export default function LandingPage() {
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
-            <div className="mt-6 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm text-muted-foreground">
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-sm text-muted-foreground max-[479px]:w-[560px] max-[479px]:flex-nowrap max-[479px]:justify-start">
               {HIGHLIGHTS.map((point) => (
                 <div key={point} className="flex items-center gap-2">
                   <CheckCircle2 className="h-4 w-4 text-primary" />
